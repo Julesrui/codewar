@@ -9,3 +9,15 @@ function isTriangle(a,b,c){
       return false;
       }
     }
+
+    //other solutions:  
+//     function isTriangle(a,b,c)
+// {
+//   return ( (b+c)>a && (a+b)>c && (a+c)>b );
+// }
+
+//and this:
+// function isTriangle(a,b,c)
+// {
+//    return a + b > c && a + c > b && c + b > a;
+// }
